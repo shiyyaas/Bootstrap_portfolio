@@ -1,5 +1,6 @@
 const btn = document.getElementById("account")
 const form = document.getElementById("Register")
+
 // btn.addEventListener("click",function(){ 
 //     fetch('http://localhost:5000/get-users')
 //     .then(response => response.json())
