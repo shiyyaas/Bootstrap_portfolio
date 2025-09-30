@@ -50,18 +50,23 @@
 
     <section class="container mt-5 pt-5">
     <!-- Registration form -->
-     <div class="mx-5">
-        <form class="d-flex flex-column gap-3 ">
-                <div class="d-flex flex-column">
-                    <label for="">Email</label>
-                    <input type="email">        
-                </div>
-                <button type="submit" class="btn btn-secondary">Sent</button>
+    <div class="d-flex justify-content-center mb-5">
+        <form class="d-flex flex-column gap-3 w-100" style="max-width: 500px;">
+            <div class="d-flex flex-column">
+                <label for="">Email</label>
+                <input type="email" class="form-control">     
+            </div>
+            <div class="d-flex flex-column">
+                <label for="">Password</label>
+                <input type="password" class="form-control">     
+            </div>
+            <button type="submit" class="btn btn-secondary">Create Account</button>
         </form>
-     </div>
+    </div>
+
     <!-- Projects -->
-    <div class="row">
-        <div class="col d-flex justify-content-center my-3">
+    <div class="d-flex flex-wrap justify-content-center gap-5">
+        <div class="">
             <div class="card bg-dark text-light border-secondary rounded-5" style="width: 18rem;">
                 <div class="card-body m-3">
                     <h4 class="card-title">P-recipe</h4>
@@ -73,7 +78,7 @@
             </div>
         </div>
 
-        <div class="col d-flex justify-content-center my-3">
+        <div class="">
             <div class="card bg-dark text-light border-secondary rounded-5" style="width: 18rem;">
                 <div class="card-body m-3">
                     <h4 class="card-title">Bportfolio</h4>
