@@ -13,6 +13,9 @@ form.addEventListener("submit",function(event){
     let email = form.elements.email.value;
     let password = form.elements.password.value;
 
+    if (name == "" || email == "" || password == ""){
+        alert("Type something broh, It have to be not empty.....")
+    }
     const userdata = {
         "name" : name,
         "email" : email,
